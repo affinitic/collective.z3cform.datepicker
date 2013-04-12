@@ -5,7 +5,7 @@
     i18n_domain="collective.z3cform.datepicker">
 
     <include package="plone.z3cform" />
-    <include package="collective.jqueryui" />
+    <include package="collective.js.jqueryui" />
 
     <class class=".widget.DatePickerWidget">
         <require permission="zope.Public"
